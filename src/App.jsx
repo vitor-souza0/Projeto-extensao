@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import Dashboard from './components/Dashboard.jsx'
 import FinancialForm from './components/Formulario.jsx'
-import HistoryList from './components/Hsitorico.jsx'
+import HistoryList from './components/Historico.jsx'
 import FinancialTips from './components/Dicas.jsx'
 import './App.css'
 
