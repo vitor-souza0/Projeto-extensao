@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo } from 'react'
 import Dashboard from './components/Dashboard.jsx'
-import Formulario from './components/Formulario.jsx'
-import Historico from './components/Historico.jsx'
-import Dicas from './components/Dicas.jsx'
+import FinancialForm from './components/FinancialForm.jsx'
+import HistoryList from './components/HistoryList.jsx'
+import FinancialTips from './components/FinancialTips.jsx'
 import './App.css'
 
 export default function App() {
