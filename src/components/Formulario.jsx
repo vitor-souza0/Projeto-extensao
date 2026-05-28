@@ -10,7 +10,7 @@ const CATEGORIES = [
   'Outros'
 ]
 
-export default function FinancialForm({ onAddTransaction }) {
+export default function Formulario({ onAddTransaction }) {
   const [description, setDescription] = useState('')
   const [amount, setAmount] = useState('')
   const [type, setType] = useState('expense')

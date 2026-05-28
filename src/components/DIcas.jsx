@@ -6,7 +6,7 @@ const TIPS = [
   { id: 3, title: 'Faça uma reserva de paz', content: 'Guardar mesmo que seja R$ 5 ou R$ 10 por mês ajuda você a não passar sufoco se um eletrodoméstico quebrar.' }
 ]
 
-export default function FinancialTips({ balance, month }) {
+export default function Dicas({ balance, month }) {
   const tip = useMemo(() => {
     if (balance < 0) {
       return { 
